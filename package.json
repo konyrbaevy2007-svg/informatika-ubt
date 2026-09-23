@@ -1,1 +1,13 @@
-{"name":"informatika-ubt","version":"2.0.0","scripts":{"start":"node server.js"},"dependencies":{"express":"^4.21.2","better-sqlite3":"^11.7.0","bcryptjs":"^2.4.3","express-session":"^1.18.1"}}
+{
+  "name": "informatika-ubt",
+  "version": "3.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "better-sqlite3": "^11.7.0",
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.18.1"
+  }
+}
