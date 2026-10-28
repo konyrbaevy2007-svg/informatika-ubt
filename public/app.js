@@ -24,3 +24,8 @@ function chooseHard(i){hardIndex=i;$("hicon").textContent=HARD_TOPICS[i].icon;$(
 function startHardCount(n){if(!needStudent())return;let t=HARD_TOPICS[hardIndex];current=[...t.questions].sort(()=>Math.random()-.5).slice(0,n);currentTopic=t.title+" • Күрделі "+n;begin("КҮРДЕЛІ ДЕҢГЕЙ",currentTopic)}
 
 renderTopics();renderHard();who();
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("page") === "login") {
+    show("login");
+}
